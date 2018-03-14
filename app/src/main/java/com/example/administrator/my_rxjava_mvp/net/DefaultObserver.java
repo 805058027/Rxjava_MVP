@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.text.TextUtils;
 import android.widget.Toast;
 
-import com.example.administrator.my_rxjava_mvp.Presenter.base.BasePresenterImpl;
 import com.example.administrator.my_rxjava_mvp.R;
 import com.example.administrator.my_rxjava_mvp.model.base.BasicResponse;
 import com.example.administrator.my_rxjava_mvp.utils.CommonDialogUtils;

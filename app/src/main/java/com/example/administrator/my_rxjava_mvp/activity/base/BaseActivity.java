@@ -4,7 +4,7 @@ import android.content.Context;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.example.administrator.my_rxjava_mvp.Presenter.base.BasePresenter;
+import com.example.administrator.my_rxjava_mvp.presenter.base.BasePresenter;
 import com.example.administrator.my_rxjava_mvp.base.IBaseView;
 
 /**

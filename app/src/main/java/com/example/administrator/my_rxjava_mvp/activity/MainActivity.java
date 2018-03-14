@@ -3,7 +3,7 @@ package com.example.administrator.my_rxjava_mvp.activity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.example.administrator.my_rxjava_mvp.Presenter.MeiZiPresenter;
+import com.example.administrator.my_rxjava_mvp.presenter.MeiZiPresenter;
 import com.example.administrator.my_rxjava_mvp.R;
 import com.example.administrator.my_rxjava_mvp.activity.base.BaseActivity;
 import com.example.administrator.my_rxjava_mvp.contact.MeiZiContact;

@@ -1,4 +1,4 @@
-package com.example.administrator.my_rxjava_mvp.Presenter.base;
+package com.example.administrator.my_rxjava_mvp.presenter.base;
 
 import com.example.administrator.my_rxjava_mvp.base.IBaseView;
 

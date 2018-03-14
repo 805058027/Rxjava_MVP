@@ -1,8 +1,8 @@
-package com.example.administrator.my_rxjava_mvp.Presenter;
+package com.example.administrator.my_rxjava_mvp.presenter;
 
 import android.app.Activity;
 
-import com.example.administrator.my_rxjava_mvp.Presenter.base.BasePresenterImpl;
+import com.example.administrator.my_rxjava_mvp.presenter.base.BasePresenterImpl;
 import com.example.administrator.my_rxjava_mvp.contact.MeiZiContact;
 import com.example.administrator.my_rxjava_mvp.model.MeiZi;
 import com.example.administrator.my_rxjava_mvp.model.base.BasicResponse;

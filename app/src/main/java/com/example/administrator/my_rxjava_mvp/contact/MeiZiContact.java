@@ -1,6 +1,6 @@
 package com.example.administrator.my_rxjava_mvp.contact;
 
-import com.example.administrator.my_rxjava_mvp.Presenter.base.BasePresenter;
+import com.example.administrator.my_rxjava_mvp.presenter.base.BasePresenter;
 import com.example.administrator.my_rxjava_mvp.base.IBaseView;
 import com.example.administrator.my_rxjava_mvp.model.MeiZi;
 
