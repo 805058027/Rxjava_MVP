@@ -25,7 +25,7 @@ public class MainActivity extends BaseActivity<MeiZiContact.presenter> implement
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
-        presenter.getData(1,1);
+        presenter.getData(1, 1);
     }
 
     @Override
@@ -37,5 +37,4 @@ public class MainActivity extends BaseActivity<MeiZiContact.presenter> implement
     public void setData(List<MeiZi> dataList) {
         mText.setText("数据的长度--" + dataList.size());
     }
-
 }

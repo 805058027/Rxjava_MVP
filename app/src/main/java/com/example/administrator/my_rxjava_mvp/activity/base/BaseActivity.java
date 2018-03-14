@@ -27,6 +27,7 @@ public abstract class BaseActivity<P extends BasePresenter> extends AppCompatAct
     protected void onDestroy() {
         //ActivityManager.getAppInstance().removeActivity(this);//将当前activity移除管理栈
         if (presenter != null) {
+            presenter.unDisposable();
             presenter.detach();//在presenter中解绑释放view
             presenter = null;
         }
@@ -40,23 +41,4 @@ public abstract class BaseActivity<P extends BasePresenter> extends AppCompatAct
      */
     public abstract P initPresenter();
 
-    @Override
-    public void showProgress() {
-
-    }
-
-    @Override
-    public void dismissProgress() {
-
-    }
-
-    @Override
-    public void loadDataSuccess(Object tData) {
-
-    }
-
-    @Override
-    public void loadDataError(Throwable throwable) {
-
-    }
 }

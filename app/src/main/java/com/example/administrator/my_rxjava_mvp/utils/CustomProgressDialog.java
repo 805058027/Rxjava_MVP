@@ -53,7 +53,9 @@ public class CustomProgressDialog extends Dialog {
     @Override
     protected void onStop() {
         super.onStop();
-        animationDrawable.stop();
+        if (animationDrawable != null) {
+            animationDrawable.stop();
+        }
     }
 
     public static final class Builder {
@@ -69,6 +71,7 @@ public class CustomProgressDialog extends Dialog {
 
         /**
          * 设置主题
+         *
          * @param resStyle style id
          * @return CustomProgressDialog.Builder
          */

@@ -27,12 +27,12 @@ public class MeiZiPresenter extends BasePresenterImpl<MeiZiContact.view> impleme
         super(view);
         activity = (Activity) view;
     }
-
     /**
      * 获取数据
      */
     @Override
-    public void getData(int page,int row) {
+
+    public void getData(int page, int row) {
         IdeaApi.getApiService()
                 .getMezi()
                 .subscribeOn(Schedulers.io())
@@ -41,6 +41,12 @@ public class MeiZiPresenter extends BasePresenterImpl<MeiZiContact.view> impleme
                     @Override
                     public void onSuccess(BasicResponse<List<MeiZi>> response) {
                         view.setData(response.getResults());
+                    }
+
+                    @Override
+                    public void onSubscribe(Disposable d) {
+                        super.onSubscribe(d);
+                        addDisposable(d);
                     }
                 });
     }

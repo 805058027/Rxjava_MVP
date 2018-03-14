@@ -25,6 +25,7 @@ public interface MeiZiContact {
         /**
          * 获取数据
          */
-        void getData(int page,int row);
+        void getData(int page, int row);
+
     }
 }
